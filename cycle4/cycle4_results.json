@@ -1,0 +1,72 @@
+{
+  "disclaimer": "Equilibrium model only. All distributions hypothetical. Does not predict properties of the designed fragments.",
+  "n": 30000,
+  "seed": 20261115,
+  "summary": {
+    "0.5_mmol_nominal_pockets": {
+      "capture_p10_p50_p90_percent": [
+        2.99,
+        21.07,
+        61.78
+      ],
+      "fraction_capture_ge70": 0.06463333333333333,
+      "phosphate_depletion_p10_p50_p90_percent": [
+        0.05,
+        1.68,
+        13.93
+      ],
+      "citrate_depletion_p10_p50_p90_percent": [
+        0.03,
+        1.44,
+        26.95
+      ],
+      "fraction_capture_ge70_and_both_depletions_le10": 0.0424
+    },
+    "2_mmol_nominal_pockets": {
+      "capture_p10_p50_p90_percent": [
+        14.5,
+        62.71,
+        94.31
+      ],
+      "fraction_capture_ge70": 0.4267,
+      "phosphate_depletion_p10_p50_p90_percent": [
+        0.39,
+        9.16,
+        53.92
+      ],
+      "citrate_depletion_p10_p50_p90_percent": [
+        0.2,
+        8.71,
+        75.42
+      ],
+      "fraction_capture_ge70_and_both_depletions_le10": 0.12103333333333334
+    },
+    "4_mmol_nominal_pockets": {
+      "capture_p10_p50_p90_percent": [
+        31.94,
+        83.7,
+        98.18
+      ],
+      "fraction_capture_ge70": 0.66,
+      "phosphate_depletion_p10_p50_p90_percent": [
+        1.13,
+        20.63,
+        83.26
+      ],
+      "citrate_depletion_p10_p50_p90_percent": [
+        0.6,
+        21.12,
+        91.67
+      ],
+      "fraction_capture_ge70_and_both_depletions_le10": 0.09133333333333334
+    }
+  },
+  "max_site_balance_error_mM": 7.105427357601002e-15,
+  "checks": {
+    "zero_sites": "pass",
+    "zero_ligands": "pass",
+    "strong_single_ligand_limit": "pass",
+    "bounds_and_site_balance": "pass"
+  },
+  "caveat": "No digestion, uptake, toxicity, pH, multivalent stoichiometry or ligand speciation. The 10% depletion constraint is an illustrative engineering threshold, not a safety criterion."
+}

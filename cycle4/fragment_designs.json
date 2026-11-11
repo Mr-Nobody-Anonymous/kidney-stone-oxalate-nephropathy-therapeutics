@@ -1,0 +1,26 @@
+[
+  {
+    "label": "parent_panel",
+    "canonical_fragment_smiles": "C[n+]1cc(C(=O)N[*:1])cc(C(=O)N[*:2])c1",
+    "formal_charge_of_fragment": 1,
+    "scope": "Local panel only; dummy atoms are unresolved attachments; not complete cage or medicine"
+  },
+  {
+    "label": "tether_EG2",
+    "canonical_fragment_smiles": "O=C(N[*:1])c1cc(C(=O)N[*:2])c[n+](CCCOCCOCCO[*:3])c1",
+    "formal_charge_of_fragment": 1,
+    "scope": "Local panel only; dummy atoms are unresolved attachments; not complete cage or medicine"
+  },
+  {
+    "label": "tether_EG4",
+    "canonical_fragment_smiles": "O=C(N[*:1])c1cc(C(=O)N[*:2])c[n+](CCCOCCOCCOCCOCCO[*:3])c1",
+    "formal_charge_of_fragment": 1,
+    "scope": "Local panel only; dummy atoms are unresolved attachments; not complete cage or medicine"
+  },
+  {
+    "label": "tether_EG6",
+    "canonical_fragment_smiles": "O=C(N[*:1])c1cc(C(=O)N[*:2])c[n+](CCCOCCOCCOCCOCCOCCOCCO[*:3])c1",
+    "formal_charge_of_fragment": 1,
+    "scope": "Local panel only; dummy atoms are unresolved attachments; not complete cage or medicine"
+  }
+]
