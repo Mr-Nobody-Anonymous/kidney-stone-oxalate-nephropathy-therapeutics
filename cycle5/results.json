@@ -1,0 +1,109 @@
+{
+  "scope": "1024 equal-weight corners per condition; hypothetical equilibrium only. Not population probabilities or digestive tests.",
+  "target_capture": 0.8,
+  "illustrative_max_each_competitor_depletion": 0.1,
+  "nominal_site_amount_mmol": 4,
+  "summaries": {
+    "nominal": {
+      "corners": 1024,
+      "minimum_capture_percent": 0.1718362079141246,
+      "maximum_capture_percent": 99.9491191450865,
+      "fraction_corners_capture_ge80": 0.4150390625,
+      "fraction_joint_ge80_capture_le10_depletions": 0.150390625,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 92.1669174257537
+    },
+    "weaker_oxalate_affinity_10x": {
+      "corners": 1024,
+      "minimum_capture_percent": 0.017231921550967682,
+      "maximum_capture_percent": 99.49360127290082,
+      "fraction_corners_capture_ge80": 0.2470703125,
+      "fraction_joint_ge80_capture_le10_depletions": 0.1015625,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 228.39006322277282
+    },
+    "competitors_bind_10x_stronger": {
+      "corners": 1024,
+      "minimum_capture_percent": 0.017232646759740546,
+      "maximum_capture_percent": 99.52962891006791,
+      "fraction_corners_capture_ge80": 0.248046875,
+      "fraction_joint_ge80_capture_le10_depletions": 0.1015625,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 224.79006322277283
+    },
+    "half_sites": {
+      "corners": 1024,
+      "minimum_capture_percent": 0.08248004435084233,
+      "maximum_capture_percent": 99.86602361715539,
+      "fraction_corners_capture_ge80": 0.240234375,
+      "fraction_joint_ge80_capture_le10_depletions": 0.099609375,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 184.3338348515074
+    },
+    "combined": {
+      "corners": 1024,
+      "minimum_capture_percent": 0.0033333527494244946,
+      "maximum_capture_percent": 97.03321759913696,
+      "fraction_corners_capture_ge80": 0.0966796875,
+      "fraction_joint_ge80_capture_le10_depletions": 0.04296875,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 500.2371387365969
+    },
+    "severe_combined": {
+      "corners": 1024,
+      "minimum_capture_percent": 4.879429477410768e-05,
+      "maximum_capture_percent": 30.49199992640503,
+      "fraction_corners_capture_ge80": 0.0,
+      "fraction_joint_ge80_capture_le10_depletions": 0.0,
+      "all_corners_capture_ge80": false,
+      "all_corners_selectivity_feasible_at_any_capacity": false,
+      "max_required_nominal_sites_mmol_for_capture_alone": 1332.9066603361375
+    }
+  },
+  "minimum_nominal_competitor_Kd_over_oxalate_Kd_ratios": {
+    "nominal": 36.0,
+    "weaker_oxalate_affinity_10x": 360.0,
+    "competitors_bind_10x_stronger": 360.0,
+    "half_sites": 36.0,
+    "combined": 1080.0,
+    "severe_combined": 36000.0
+  },
+  "capacity_bounds": {
+    "nominal": {
+      "available_sites_at_half_accessibility_mmol": 2.0,
+      "capacity_only_capture_ceiling_percent": 100,
+      "necessary_nominal_sites_for_80_capture_mmol": 2.4000000000000004
+    },
+    "weaker_oxalate_affinity_10x": {
+      "available_sites_at_half_accessibility_mmol": 2.0,
+      "capacity_only_capture_ceiling_percent": 100,
+      "necessary_nominal_sites_for_80_capture_mmol": 2.4000000000000004
+    },
+    "competitors_bind_10x_stronger": {
+      "available_sites_at_half_accessibility_mmol": 2.0,
+      "capacity_only_capture_ceiling_percent": 100,
+      "necessary_nominal_sites_for_80_capture_mmol": 2.4000000000000004
+    },
+    "half_sites": {
+      "available_sites_at_half_accessibility_mmol": 1.0,
+      "capacity_only_capture_ceiling_percent": 66.66666666666666,
+      "necessary_nominal_sites_for_80_capture_mmol": 4.800000000000001
+    },
+    "combined": {
+      "available_sites_at_half_accessibility_mmol": 1.2,
+      "capacity_only_capture_ceiling_percent": 80.0,
+      "necessary_nominal_sites_for_80_capture_mmol": 4.000000000000001
+    },
+    "severe_combined": {
+      "available_sites_at_half_accessibility_mmol": 0.6,
+      "capacity_only_capture_ceiling_percent": 40.0,
+      "necessary_nominal_sites_for_80_capture_mmol": 8.000000000000002
+    }
+  },
+  "conclusion": "No robust 80% capture-plus-selectivity result in this stated envelope. No molecular validation or safety prediction."
+}
