@@ -1,0 +1,77 @@
+{
+  "baseline": {
+    "capture_percent_p10_p50_p90": [
+      4.66,
+      28.04,
+      78.5
+    ],
+    "urinary_reduction_percent_p10_p50_p90": [
+      2.07,
+      12.7,
+      40.74
+    ],
+    "fraction_scenarios_at_least_20pct_urinary_reduction": 0.3392,
+    "fraction_better_than_paired_baseline": 0.0
+  },
+  "double_capacity": {
+    "capture_percent_p10_p50_p90": [
+      8.86,
+      43.29,
+      88.5
+    ],
+    "urinary_reduction_percent_p10_p50_p90": [
+      3.89,
+      19.14,
+      48.95
+    ],
+    "fraction_scenarios_at_least_20pct_urinary_reduction": 0.4805,
+    "fraction_better_than_paired_baseline": 1.0
+  },
+  "selectivity_10x_with_penalties": {
+    "capture_percent_p10_p50_p90": [
+      9.79,
+      37.55,
+      86.34
+    ],
+    "urinary_reduction_percent_p10_p50_p90": [
+      4.21,
+      17.05,
+      46.6
+    ],
+    "fraction_scenarios_at_least_20pct_urinary_reduction": 0.4319,
+    "fraction_better_than_paired_baseline": 0.737
+  },
+  "combined": {
+    "capture_percent_p10_p50_p90": [
+      16.8,
+      52.13,
+      93.19
+    ],
+    "urinary_reduction_percent_p10_p50_p90": [
+      7.01,
+      23.06,
+      53.34
+    ],
+    "fraction_scenarios_at_least_20pct_urinary_reduction": 0.5713,
+    "fraction_better_than_paired_baseline": 0.8737
+  },
+  "fast_access_only": {
+    "capture_percent_p10_p50_p90": [
+      5.33,
+      31.42,
+      82.08
+    ],
+    "urinary_reduction_percent_p10_p50_p90": [
+      2.34,
+      14.16,
+      43.41
+    ],
+    "fraction_scenarios_at_least_20pct_urinary_reduction": 0.3738,
+    "fraction_better_than_paired_baseline": 0.9708
+  },
+  "checks": {
+    "maximum_mass_balance_error_M": 1.951563910473908e-18,
+    "scenarios": 20000,
+    "seed": 20261110
+  }
+}
