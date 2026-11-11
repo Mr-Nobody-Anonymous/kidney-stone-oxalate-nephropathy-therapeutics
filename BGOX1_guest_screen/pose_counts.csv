@@ -1,0 +1,6 @@
+guest,poses,clash_free,both_arm_proximity,distinct_acceptor_both_arm_proximity,host_conformers_with_some_two_arm_pose
+oxalate,96000,21393,1152,1080,24
+hydrogen_phosphate,96000,23170,1112,1067,23
+sulfate,96000,23908,1076,1036,24
+citrate,96000,7324,1178,1144,24
+chloride,96000,44098,379,0,12

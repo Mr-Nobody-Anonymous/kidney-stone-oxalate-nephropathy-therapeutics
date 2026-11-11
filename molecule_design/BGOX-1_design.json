@@ -1,0 +1,198 @@
+{
+  "label": "BGOX-1",
+  "status": "proposed complete small receptor module; no synthesis, binding or safety validation",
+  "canonical_SMILES": "NC(=[NH2+])NCc1cc(CNC(N)=[NH2+])cc(OCCOCCOCCO)c1",
+  "formal_charge": 2,
+  "formula": "C16H30N6O4+2",
+  "molecular_mass_dication_excluding_counterions_g_mol": 370.4540000000002,
+  "chloride_salt_SMILES": "NC(=[NH2+])NCc1cc(CNC(N)=[NH2+])cc(OCCOCCOCCO)c1.[Cl-].[Cl-]",
+  "structural_identity": "1,3-bis(guanidiniomethyl)-5-(triethylene-glycol-derived hydroxyethoxy)benzene connectivity as unambiguously defined by SMILES; label is not an IUPAC name",
+  "protonation": "fixed dication representation; pH-dependent speciation not computed",
+  "conformers": [
+    {
+      "conformer_id": 0,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -291.4807355587464,
+      "guanidinium_carbon_distance_A": 9.315551698630316
+    },
+    {
+      "conformer_id": 1,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -261.94274666611045,
+      "guanidinium_carbon_distance_A": 9.424502027288204
+    },
+    {
+      "conformer_id": 2,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -279.8004675496343,
+      "guanidinium_carbon_distance_A": 9.510403216473655
+    },
+    {
+      "conformer_id": 3,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -285.6044870345678,
+      "guanidinium_carbon_distance_A": 9.04224247591978
+    },
+    {
+      "conformer_id": 4,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -277.34486915516413,
+      "guanidinium_carbon_distance_A": 8.479691215668032
+    },
+    {
+      "conformer_id": 5,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -260.5899083213608,
+      "guanidinium_carbon_distance_A": 9.408681890558244
+    },
+    {
+      "conformer_id": 6,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -278.9546040043608,
+      "guanidinium_carbon_distance_A": 9.121168939091117
+    },
+    {
+      "conformer_id": 7,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -260.99142896678336,
+      "guanidinium_carbon_distance_A": 8.530970766362605
+    },
+    {
+      "conformer_id": 8,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -287.3549229367705,
+      "guanidinium_carbon_distance_A": 9.04752907322544
+    },
+    {
+      "conformer_id": 9,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -256.7910029296372,
+      "guanidinium_carbon_distance_A": 9.237170099833167
+    },
+    {
+      "conformer_id": 10,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -258.8452060513535,
+      "guanidinium_carbon_distance_A": 9.134932248958897
+    },
+    {
+      "conformer_id": 11,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -270.87051213087767,
+      "guanidinium_carbon_distance_A": 8.890243795561304
+    },
+    {
+      "conformer_id": 12,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -257.33464224800497,
+      "guanidinium_carbon_distance_A": 8.808138766657315
+    },
+    {
+      "conformer_id": 13,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -279.154899863605,
+      "guanidinium_carbon_distance_A": 9.248958543802011
+    },
+    {
+      "conformer_id": 14,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -269.1512687110092,
+      "guanidinium_carbon_distance_A": 9.489109964298267
+    },
+    {
+      "conformer_id": 15,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -276.6817622341224,
+      "guanidinium_carbon_distance_A": 9.467892906322025
+    },
+    {
+      "conformer_id": 16,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -266.6885925701391,
+      "guanidinium_carbon_distance_A": 9.508226968346566
+    },
+    {
+      "conformer_id": 17,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -265.8747108858412,
+      "guanidinium_carbon_distance_A": 9.548029062621927
+    },
+    {
+      "conformer_id": 18,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -261.8397351078414,
+      "guanidinium_carbon_distance_A": 8.164557384280384
+    },
+    {
+      "conformer_id": 19,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -284.7784661032981,
+      "guanidinium_carbon_distance_A": 8.896350133610717
+    },
+    {
+      "conformer_id": 20,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -276.0887864608035,
+      "guanidinium_carbon_distance_A": 9.122441056082346
+    },
+    {
+      "conformer_id": 21,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -264.2148128086003,
+      "guanidinium_carbon_distance_A": 8.52469035439078
+    },
+    {
+      "conformer_id": 22,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -278.5437613853877,
+      "guanidinium_carbon_distance_A": 8.465457857691183
+    },
+    {
+      "conformer_id": 23,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -262.14418724674493,
+      "guanidinium_carbon_distance_A": 9.309281120854271
+    },
+    {
+      "conformer_id": 24,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -279.0826477528521,
+      "guanidinium_carbon_distance_A": 9.073214588512103
+    },
+    {
+      "conformer_id": 25,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -264.9986155886881,
+      "guanidinium_carbon_distance_A": 9.014318290613762
+    },
+    {
+      "conformer_id": 26,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -265.4773974285075,
+      "guanidinium_carbon_distance_A": 9.190430544586002
+    },
+    {
+      "conformer_id": 27,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -289.4602928499232,
+      "guanidinium_carbon_distance_A": 9.08270486805692
+    },
+    {
+      "conformer_id": 28,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -274.4188589484356,
+      "guanidinium_carbon_distance_A": 9.408858248930493
+    },
+    {
+      "conformer_id": 29,
+      "optimization_status": 0,
+      "MMFF_energy_kcal_mol": -264.40091465137243,
+      "guanidinium_carbon_distance_A": 9.007613031159329
+    }
+  ],
+  "conformer_distance_range_A": [
+    8.164557384280384,
+    9.548029062621927
+  ],
+  "limitation": "MMFF calculations are isolated-molecule geometry exploration, not a binding simulation or predictive ranking. No claimed novelty or connection to the passing 80% simulation specification."
+}

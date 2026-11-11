@@ -1,0 +1,62 @@
+{
+  "scope": "Molecular descriptors, graph checks and isolated force-field geometry sensitivity only. No receptor-guest affinity, explicit solvent, physiological speciation or toxicity calculation.",
+  "descriptors": {
+    "formula": "C16H30N6O4+2",
+    "mass_excluding_counterions_g_mol": 370.4540000000002,
+    "formal_charge": 2,
+    "polar_surface_area_A2": 175.19999999999996,
+    "hydrogen_bond_donors": 7,
+    "hydrogen_bond_acceptors": 4,
+    "rotatable_bonds": 13,
+    "heavy_atoms": 26,
+    "ring_count": 1
+  },
+  "conformational_screen": {
+    "1.0": {
+      "generated": 144,
+      "converged": 144,
+      "guanidinium_carbon_distance_A_min_median_max": [
+        8.1,
+        9.19,
+        9.596
+      ],
+      "minimum_interarm_N_distance_A_min_median_max": [
+        6.342,
+        6.895,
+        7.352
+      ],
+      "minimum_chain_O_to_guanidinium_N_distance_A_min_median_max": [
+        2.573,
+        2.753,
+        5.166
+      ]
+    },
+    "78.4": {
+      "generated": 144,
+      "converged": 144,
+      "guanidinium_carbon_distance_A_min_median_max": [
+        5.825,
+        8.057,
+        8.973
+      ],
+      "minimum_interarm_N_distance_A_min_median_max": [
+        4.148,
+        6.022,
+        6.913
+      ],
+      "minimum_chain_O_to_guanidinium_N_distance_A_min_median_max": [
+        3.432,
+        5.312,
+        5.433
+      ]
+    }
+  },
+  "all_structural_checks_pass": true,
+  "clinical_or_binding_success": "UNKNOWN",
+  "limitations": [
+    "Dielectric 78.4 is NOT explicit water or a validated solvent model.",
+    "Generated conformer fractions are not thermal populations.",
+    "MMFF energies cannot be compared as binding free energies.",
+    "No full support material, counterion or oxalate complex was modeled."
+  ]
+}

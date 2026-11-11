@@ -1,0 +1,64 @@
+{
+  "scope": "Geometric accessibility/proximity only. No binding energy, explicit water, desolvation, entropy, ions, dynamics or toxicity. Pose counts are not binding probabilities.",
+  "thresholds": {
+    "contact_distance_A": [
+      2.5,
+      3.5
+    ],
+    "clash_cutoff_fraction_of_vdw_sum": 0.75,
+    "translations": "cube +/-4 A about arm midpoint"
+  },
+  "fixed_protonation": "oxalate -2; hydrogen phosphate -2; sulfate -2; citrate -3; chloride -1; host +2; not a pH titration",
+  "results": {
+    "oxalate": {
+      "guest_smiles": "O=C([O-])C(=O)[O-]",
+      "guest_formal_charge": -2,
+      "poses": 96000,
+      "clash_free": 21393,
+      "both_arm_proximity": 1152,
+      "distinct_acceptor_both_arm_proximity": 1080,
+      "host_conformers_with_some_two_arm_pose": 24,
+      "host_conformers_screened": 24
+    },
+    "hydrogen_phosphate": {
+      "guest_smiles": "O=P([O-])([O-])O",
+      "guest_formal_charge": -2,
+      "poses": 96000,
+      "clash_free": 23170,
+      "both_arm_proximity": 1112,
+      "distinct_acceptor_both_arm_proximity": 1067,
+      "host_conformers_with_some_two_arm_pose": 23,
+      "host_conformers_screened": 24
+    },
+    "sulfate": {
+      "guest_smiles": "O=S(=O)([O-])[O-]",
+      "guest_formal_charge": -2,
+      "poses": 96000,
+      "clash_free": 23908,
+      "both_arm_proximity": 1076,
+      "distinct_acceptor_both_arm_proximity": 1036,
+      "host_conformers_with_some_two_arm_pose": 24,
+      "host_conformers_screened": 24
+    },
+    "citrate": {
+      "guest_smiles": "O=C([O-])CC(O)(CC(=O)[O-])C(=O)[O-]",
+      "guest_formal_charge": -3,
+      "poses": 96000,
+      "clash_free": 7324,
+      "both_arm_proximity": 1178,
+      "distinct_acceptor_both_arm_proximity": 1144,
+      "host_conformers_with_some_two_arm_pose": 24,
+      "host_conformers_screened": 24
+    },
+    "chloride": {
+      "guest_smiles": "[Cl-]",
+      "guest_formal_charge": -1,
+      "poses": 96000,
+      "clash_free": 44098,
+      "both_arm_proximity": 379,
+      "distinct_acceptor_both_arm_proximity": 0,
+      "host_conformers_with_some_two_arm_pose": 12,
+      "host_conformers_screened": 24
+    }
+  }
+}
