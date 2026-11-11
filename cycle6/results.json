@@ -1,0 +1,551 @@
+{
+  "disclaimer": "Successful property-only inverse design under an unvalidated equilibrium model. No molecule has been shown to achieve these parameters.",
+  "target_capture": 0.85,
+  "offtarget_max": 0.1,
+  "selected": {
+    "affinity_improvement": 100,
+    "competitor_Kd_multiplier": 100000000,
+    "minimum_nominal_pockets_mmol": 10.393646554529845,
+    "maximum_for_10pct_offtarget_mmol": 222.32492314693528,
+    "chosen_pockets_mmol": 10.404040201084374,
+    "feasible": true,
+    "ranking_score": 11.379071973847706
+  },
+  "capture_only_without_affinity_or_selectivity_improvement_required_nominal_sites_mmol": 1391.4259019177953,
+  "results": {
+    "corners": {
+      "nominal": {
+        "n": 1024,
+        "minimum_capture_percent": 99.9864930225693,
+        "median_capture_percent": 99.99944721046916,
+        "maximum_phosphate_depletion_percent": 0.05149314561723502,
+        "maximum_citrate_depletion_percent": 0.05149360853141634,
+        "joint_pass_fraction": 1.0
+      },
+      "weaker_oxalate_affinity_10x": {
+        "n": 1024,
+        "minimum_capture_percent": 99.86516041778658,
+        "median_capture_percent": 99.99447254413433,
+        "maximum_phosphate_depletion_percent": 0.051493189239758125,
+        "maximum_citrate_depletion_percent": 0.051493652153938876,
+        "joint_pass_fraction": 1.0
+      },
+      "competitors_bind_10x_stronger": {
+        "n": 1024,
+        "minimum_capture_percent": 99.98646242877557,
+        "median_capture_percent": 99.99944705606435,
+        "maximum_phosphate_depletion_percent": 0.5125090010865455,
+        "maximum_citrate_depletion_percent": 0.5125546501003245,
+        "joint_pass_fraction": 1.0
+      },
+      "half_sites": {
+        "n": 1024,
+        "minimum_capture_percent": 99.95462437759532,
+        "median_capture_percent": 99.99879289630928,
+        "maximum_phosphate_depletion_percent": 0.025503341380419695,
+        "maximum_citrate_depletion_percent": 0.025503570770093933,
+        "joint_pass_fraction": 1.0
+      },
+      "combined": {
+        "n": 1024,
+        "minimum_capture_percent": 99.69317377178515,
+        "median_capture_percent": 99.99031810053546,
+        "maximum_phosphate_depletion_percent": 0.09204894940012079,
+        "maximum_citrate_depletion_percent": 0.09205142988372259,
+        "joint_pass_fraction": 1.0
+      },
+      "severe_combined": {
+        "n": 1024,
+        "minimum_capture_percent": 85.04175230928021,
+        "median_capture_percent": 99.52984127360043,
+        "maximum_phosphate_depletion_percent": 0.15083368766865007,
+        "maximum_citrate_depletion_percent": 0.1508472187725958,
+        "joint_pass_fraction": 1.0
+      }
+    },
+    "independent_interior": {
+      "nominal": {
+        "n": 10000,
+        "minimum_capture_percent": 99.98980240147182,
+        "median_capture_percent": 99.99961829705104,
+        "maximum_phosphate_depletion_percent": 0.0423948728732474,
+        "maximum_citrate_depletion_percent": 0.04365956495698372,
+        "joint_pass_fraction": 1.0
+      },
+      "weaker_oxalate_affinity_10x": {
+        "n": 10000,
+        "minimum_capture_percent": 99.89814564058341,
+        "median_capture_percent": 99.9961831182357,
+        "maximum_phosphate_depletion_percent": 0.04239488489741457,
+        "maximum_citrate_depletion_percent": 0.04365956838442735,
+        "joint_pass_fraction": 1.0
+      },
+      "competitors_bind_10x_stronger": {
+        "n": 10000,
+        "minimum_capture_percent": 99.98980231073337,
+        "median_capture_percent": 99.99961824289491,
+        "maximum_phosphate_depletion_percent": 0.42228562789771884,
+        "maximum_citrate_depletion_percent": 0.43474799275525844,
+        "joint_pass_fraction": 1.0
+      },
+      "half_sites": {
+        "n": 10000,
+        "minimum_capture_percent": 99.97081238381435,
+        "median_capture_percent": 99.99916845841028,
+        "maximum_phosphate_depletion_percent": 0.02094530375243357,
+        "maximum_citrate_depletion_percent": 0.021511426188748708,
+        "joint_pass_fraction": 1.0
+      },
+      "combined": {
+        "n": 10000,
+        "minimum_capture_percent": 99.78798478695225,
+        "median_capture_percent": 99.99328878040676,
+        "maximum_phosphate_depletion_percent": 0.0756676587108829,
+        "maximum_citrate_depletion_percent": 0.07777962420469561,
+        "joint_pass_fraction": 1.0
+      },
+      "severe_combined": {
+        "n": 10000,
+        "minimum_capture_percent": 91.77120126737371,
+        "median_capture_percent": 99.84127130259644,
+        "maximum_phosphate_depletion_percent": 0.12348092036063422,
+        "maximum_citrate_depletion_percent": 0.12631113556522489,
+        "joint_pass_fraction": 1.0
+      }
+    }
+  },
+  "grid": [
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 1391.4259019177953,
+      "maximum_for_10pct_offtarget_mmol": 0.0027254092202997067,
+      "chosen_pockets_mmol": 1392.817327819713,
+      "feasible": false,
+      "ranking_score": 8.443790341215825
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 1340.7898479418109,
+      "maximum_for_10pct_offtarget_mmol": 0.0029449214252741125,
+      "chosen_pockets_mmol": 1342.1306377897524,
+      "feasible": false,
+      "ranking_score": 9.390309389373535
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 1022.0564915737014,
+      "maximum_for_10pct_offtarget_mmol": 0.005097104978730201,
+      "chosen_pockets_mmol": 1023.078548065275,
+      "feasible": false,
+      "ranking_score": 9.99870119861528
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 534.8190193910303,
+      "maximum_for_10pct_offtarget_mmol": 0.017149738084247045,
+      "chosen_pockets_mmol": 535.3538384104213,
+      "feasible": false,
+      "ranking_score": 10.064348935836918
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 386.8448792455773,
+      "maximum_for_10pct_offtarget_mmol": 0.09032368326243402,
+      "chosen_pockets_mmol": 387.23172412482285,
+      "feasible": false,
+      "ranking_score": 10.597053340638048
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 234.5401057231325,
+      "maximum_for_10pct_offtarget_mmol": 2.3244752078635744,
+      "chosen_pockets_mmol": 234.77464582885563,
+      "feasible": false,
+      "ranking_score": 11.875132804730276
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 197.86333454073895,
+      "maximum_for_10pct_offtarget_mmol": 222.32491869213774,
+      "chosen_pockets_mmol": 198.06119787527967,
+      "feasible": true,
+      "ranking_score": 13.629802459623374
+    },
+    {
+      "affinity_improvement": 1,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 197.39364655452985,
+      "maximum_for_10pct_offtarget_mmol": 22222.324923146938,
+      "chosen_pockets_mmol": 197.59104020108435,
+      "feasible": true,
+      "ranking_score": 15.626373718931475
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 1170.7898479418109,
+      "maximum_for_10pct_offtarget_mmol": 0.0029249214252741124,
+      "chosen_pockets_mmol": 1171.9606377897526,
+      "feasible": false,
+      "ranking_score": 9.194708399969036
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 852.0564915737014,
+      "maximum_for_10pct_offtarget_mmol": 0.0048971049787302,
+      "chosen_pockets_mmol": 852.908548065275,
+      "feasible": false,
+      "ranking_score": 9.736247248638513
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 364.81901939103034,
+      "maximum_for_10pct_offtarget_mmol": 0.010483071417580375,
+      "chosen_pockets_mmol": 365.18383841042134,
+      "feasible": false,
+      "ranking_score": 9.512479108544087
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 216.84487924557726,
+      "maximum_for_10pct_offtarget_mmol": 0.023657016595767338,
+      "chosen_pockets_mmol": 217.0617241248228,
+      "feasible": false,
+      "ranking_score": 9.761961538557347
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 154.03093966300676,
+      "maximum_for_10pct_offtarget_mmol": 0.12061697183955818,
+      "chosen_pockets_mmol": 154.18497060266975,
+      "feasible": false,
+      "ranking_score": 10.268518333148657
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 32.016567506664565,
+      "maximum_for_10pct_offtarget_mmol": 2.3248782121761433,
+      "chosen_pockets_mmol": 32.048584074171224,
+      "feasible": false,
+      "ranking_score": 10.002188713999843
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 27.436453506395313,
+      "maximum_for_10pct_offtarget_mmol": 222.32492274193729,
+      "chosen_pockets_mmol": 27.463889959901707,
+      "feasible": true,
+      "ranking_score": 11.779464076832667
+    },
+    {
+      "affinity_improvement": 10,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 27.389364667495265,
+      "maximum_for_10pct_offtarget_mmol": 22222.324923187436,
+      "chosen_pockets_mmol": 27.416754032162757,
+      "feasible": true,
+      "ranking_score": 13.776985870274892
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 835.0564915737015,
+      "maximum_for_10pct_offtarget_mmol": 0.004877104978730201,
+      "chosen_pockets_mmol": 835.8915480652751,
+      "feasible": false,
+      "ranking_score": 9.707171963159784
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 347.8190193910302,
+      "maximum_for_10pct_offtarget_mmol": 0.009816404750913709,
+      "chosen_pockets_mmol": 348.16683841042124,
+      "feasible": false,
+      "ranking_score": 9.443634987998806
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 199.8448792455773,
+      "maximum_for_10pct_offtarget_mmol": 0.01699034992910067,
+      "chosen_pockets_mmol": 200.04472412482284,
+      "feasible": false,
+      "ranking_score": 9.644178770073715
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 137.0309396630068,
+      "maximum_for_10pct_offtarget_mmol": 0.07701670039023374,
+      "chosen_pockets_mmol": 137.16797060266978,
+      "feasible": false,
+      "ranking_score": 10.099799834206404
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 47.54010572313251,
+      "maximum_for_10pct_offtarget_mmol": 0.12447520786357452,
+      "chosen_pockets_mmol": 47.58764582885564,
+      "feasible": false,
+      "ranking_score": 9.572515180714973
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 10.863334540738938,
+      "maximum_for_10pct_offtarget_mmol": 2.324918692137743,
+      "chosen_pockets_mmol": 10.874197875279675,
+      "feasible": false,
+      "ranking_score": 9.442837080764978
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 10.393646554529845,
+      "maximum_for_10pct_offtarget_mmol": 222.32492314693528,
+      "chosen_pockets_mmol": 10.404040201084374,
+      "feasible": true,
+      "ranking_score": 11.379071973847706
+    },
+    {
+      "affinity_improvement": 100,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 10.388936466869954,
+      "maximum_for_10pct_offtarget_mmol": 22222.324923191485,
+      "chosen_pockets_mmol": 10.399325403336823,
+      "feasible": true,
+      "ranking_score": 13.378418039712722
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 346.1190193910303,
+      "maximum_for_10pct_offtarget_mmol": 0.009749738084247042,
+      "chosen_pockets_mmol": 346.4651384104213,
+      "feasible": false,
+      "ranking_score": 9.436566384351757
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 198.14487924557724,
+      "maximum_for_10pct_offtarget_mmol": 0.016323683262434004,
+      "chosen_pockets_mmol": 198.3430241248228,
+      "feasible": false,
+      "ranking_score": 9.631853847467132
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 135.33093966300677,
+      "maximum_for_10pct_offtarget_mmol": 0.07035003372356706,
+      "chosen_pockets_mmol": 135.46627060266977,
+      "feasible": false,
+      "ranking_score": 10.081789873148887
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 45.84010572313252,
+      "maximum_for_10pct_offtarget_mmol": 0.1044752078635745,
+      "chosen_pockets_mmol": 45.88594582885565,
+      "feasible": false,
+      "ranking_score": 9.519980440513484
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 13.316567506664562,
+      "maximum_for_10pct_offtarget_mmol": 0.12487821217614355,
+      "chosen_pockets_mmol": 13.329884074171225,
+      "feasible": false,
+      "ranking_score": 8.736592328701681
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 8.736453506395312,
+      "maximum_for_10pct_offtarget_mmol": 2.324922741937277,
+      "chosen_pockets_mmol": 8.745189959901706,
+      "feasible": false,
+      "ranking_score": 10.128489722195148
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 8.689364667495266,
+      "maximum_for_10pct_offtarget_mmol": 222.32492318743527,
+      "chosen_pockets_mmol": 8.69805403216276,
+      "feasible": true,
+      "ranking_score": 12.120692670826717
+    },
+    {
+      "affinity_improvement": 1000,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 8.688893646688202,
+      "maximum_for_10pct_offtarget_mmol": 22222.32492319189,
+      "chosen_pockets_mmol": 8.697582540334889,
+      "feasible": true,
+      "ranking_score": 14.120614465131947
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 197.97487924557728,
+      "maximum_for_10pct_offtarget_mmol": 0.016257016595767337,
+      "chosen_pockets_mmol": 198.17285412482283,
+      "feasible": false,
+      "ranking_score": 9.6306155443189
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 135.1609396630068,
+      "maximum_for_10pct_offtarget_mmol": 0.06968336705690041,
+      "chosen_pockets_mmol": 135.29610060266978,
+      "feasible": false,
+      "ranking_score": 10.079976449471593
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 45.670105723132515,
+      "maximum_for_10pct_offtarget_mmol": 0.1024752078635745,
+      "chosen_pockets_mmol": 45.71577582885564,
+      "feasible": false,
+      "ranking_score": 9.514620198520529
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 13.14656750666456,
+      "maximum_for_10pct_offtarget_mmol": 0.10487821217614356,
+      "chosen_pockets_mmol": 13.159714074171223,
+      "feasible": false,
+      "ranking_score": 8.71805623834832
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 8.993334540738937,
+      "maximum_for_10pct_offtarget_mmol": 0.12491869213774286,
+      "chosen_pockets_mmol": 9.002327875279676,
+      "feasible": false,
+      "ranking_score": 9.170298110316207
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 8.523646554529844,
+      "maximum_for_10pct_offtarget_mmol": 2.3249231469352725,
+      "chosen_pockets_mmol": 8.532170201084373,
+      "feasible": false,
+      "ranking_score": 11.09291274507502
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 8.518936466869953,
+      "maximum_for_10pct_offtarget_mmol": 222.32492319148525,
+      "chosen_pockets_mmol": 8.527455403336822,
+      "feasible": true,
+      "ranking_score": 13.092115304889626
+    },
+    {
+      "affinity_improvement": 10000,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 8.518889364668832,
+      "maximum_for_10pct_offtarget_mmol": 22222.324923191933,
+      "chosen_pockets_mmol": 8.5274082540335,
+      "feasible": true,
+      "ranking_score": 15.092107328037105
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 1,
+      "minimum_nominal_pockets_mmol": 45.65140572313252,
+      "maximum_for_10pct_offtarget_mmol": 0.1022552078635745,
+      "chosen_pockets_mmol": 45.69705712885565,
+      "feasible": false,
+      "ranking_score": 9.514029354212008
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 10,
+      "minimum_nominal_pockets_mmol": 13.127867506664561,
+      "maximum_for_10pct_offtarget_mmol": 0.10267821217614355,
+      "chosen_pockets_mmol": 13.140995374171224,
+      "feasible": false,
+      "ranking_score": 8.716002652662752
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 100,
+      "minimum_nominal_pockets_mmol": 8.974634540738938,
+      "maximum_for_10pct_offtarget_mmol": 0.10291869213774284,
+      "chosen_pockets_mmol": 8.983609175279677,
+      "feasible": false,
+      "ranking_score": 9.167295165811709
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 1000,
+      "minimum_nominal_pockets_mmol": 8.54775350639531,
+      "maximum_for_10pct_offtarget_mmol": 0.10492274193727694,
+      "chosen_pockets_mmol": 8.556301259901705,
+      "feasible": false,
+      "ranking_score": 10.096987279430811
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 10000,
+      "minimum_nominal_pockets_mmol": 8.504946554529845,
+      "maximum_for_10pct_offtarget_mmol": 0.1249231469352722,
+      "chosen_pockets_mmol": 8.513451501084374,
+      "feasible": false,
+      "ranking_score": 11.089744144129936
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 1000000,
+      "minimum_nominal_pockets_mmol": 8.500236466869953,
+      "maximum_for_10pct_offtarget_mmol": 2.324923191485252,
+      "chosen_pockets_mmol": 8.508736703336822,
+      "feasible": false,
+      "ranking_score": 13.088944950110761
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 100000000,
+      "minimum_nominal_pockets_mmol": 8.500189364668833,
+      "maximum_for_10pct_offtarget_mmol": 222.32492319193076,
+      "chosen_pockets_mmol": 8.5086895540335,
+      "feasible": true,
+      "ranking_score": 15.088936955709602
+    },
+    {
+      "affinity_improvement": 1000000,
+      "competitor_Kd_multiplier": 10000000000,
+      "minimum_nominal_pockets_mmol": 8.500188893646689,
+      "maximum_for_10pct_offtarget_mmol": 22222.324923191936,
+      "chosen_pockets_mmol": 8.508689082540334,
+      "feasible": true,
+      "ranking_score": 17.088936875765345
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "disclaimer": "Hypothetical extrapolation of apparent soluble-receptor data; not a predicted or validated material.",
+  "source_Kd_oxalate_mM": 0.0005,
+  "source": "Xu et al., Chemical Science 2024, DOI 10.1039/D4SC05236F",
+  "development_n": 2000,
+  "holdout_n": 10000,
+  "selection": "maximize minimum fraction capture>=70% over nominal and combined development conditions",
+  "selected": {
+    "label": "loss10_sites4_tau0.1",
+    "sites": 4,
+    "kd": 0.005,
+    "competitor_factor": 1,
+    "tau": 0.1,
+    "source_affinity_loss": 10
+  },
+  "conditions": {
+    "nominal": {
+      "sites": 1,
+      "kd": 1,
+      "comp": 1,
+      "tau": 1
+    },
+    "competition_3x": {
+      "sites": 1,
+      "kd": 1,
+      "comp": 3,
+      "tau": 1
+    },
+    "competition_10x": {
+      "sites": 1,
+      "kd": 1,
+      "comp": 10,
+      "tau": 1
+    },
+    "half_sites": {
+      "sites": 0.5,
+      "kd": 1,
+      "comp": 1,
+      "tau": 1
+    },
+    "access_10x_slower": {
+      "sites": 1,
+      "kd": 1,
+      "comp": 1,
+      "tau": 10
+    },
+    "affinity_100x_weaker": {
+      "sites": 1,
+      "kd": 100,
+      "comp": 1,
+      "tau": 1
+    },
+    "combined": {
+      "sites": 0.6,
+      "kd": 10,
+      "comp": 3,
+      "tau": 3
+    },
+    "severe_combined": {
+      "sites": 0.3,
+      "kd": 100,
+      "comp": 10,
+      "tau": 10
+    }
+  },
+  "development_ranking": [
+    {
+      "design": {
+        "label": "loss10_sites4_tau0.1",
+        "sites": 4,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.1975,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss10_sites4_tau0.5",
+        "sites": 4,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.1925,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss10_sites2_tau0.1",
+        "sites": 2,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.058,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss10_sites2_tau0.5",
+        "sites": 2,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.052,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss10_sites0.5_tau0.1",
+        "sites": 0.5,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss10_sites0.5_tau0.5",
+        "sites": 0.5,
+        "kd": 0.005,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 10
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites0.5_tau0.1",
+        "sites": 0.5,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites0.5_tau0.5",
+        "sites": 0.5,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites2_tau0.1",
+        "sites": 2,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites2_tau0.5",
+        "sites": 2,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites4_tau0.1",
+        "sites": 4,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss100_sites4_tau0.5",
+        "sites": 4,
+        "kd": 0.05,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 100
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites0.5_tau0.1",
+        "sites": 0.5,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites0.5_tau0.5",
+        "sites": 0.5,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites2_tau0.1",
+        "sites": 2,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites2_tau0.5",
+        "sites": 2,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites4_tau0.1",
+        "sites": 4,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.1,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    },
+    {
+      "design": {
+        "label": "loss1000_sites4_tau0.5",
+        "sites": 4,
+        "kd": 0.5,
+        "competitor_factor": 1,
+        "tau": 0.5,
+        "source_affinity_loss": 1000
+      },
+      "nominal": 0.0,
+      "combined": 0.0,
+      "objective": 0.0
+    }
+  ],
+  "holdout": {
+    "nominal": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          15.06,
+          46.34,
+          78.26
+        ],
+        "fraction_ge_70pct": 0.1888,
+        "fraction_ge_20pct": 0.8443
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          24.53,
+          58.39,
+          84.7
+        ],
+        "fraction_ge_70pct": 0.318,
+        "fraction_ge_20pct": 0.9355
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          9.88,
+          26.02,
+          50.26
+        ],
+        "fraction_ge_70pct": 0.0038,
+        "fraction_ge_20pct": 0.6517
+      },
+      "mass_error_mmol": 3.1086244689504383e-15
+    },
+    "competition_3x": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          5.26,
+          22.44,
+          55.4
+        ],
+        "fraction_ge_70pct": 0.0323,
+        "fraction_ge_20pct": 0.549
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          10.15,
+          33.93,
+          66.57
+        ],
+        "fraction_ge_70pct": 0.0746,
+        "fraction_ge_20pct": 0.735
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          4.38,
+          15.45,
+          36.54
+        ],
+        "fraction_ge_70pct": 0.0004,
+        "fraction_ge_20pct": 0.3703
+      },
+      "mass_error_mmol": 3.1086244689504383e-15
+    },
+    "competition_10x": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          1.57,
+          7.74,
+          27.41
+        ],
+        "fraction_ge_70pct": 0.001,
+        "fraction_ge_20pct": 0.1821
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          3.37,
+          14.17,
+          39.88
+        ],
+        "fraction_ge_70pct": 0.0052,
+        "fraction_ge_20pct": 0.358
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          1.47,
+          6.6,
+          20.56
+        ],
+        "fraction_ge_70pct": 0.0001,
+        "fraction_ge_20pct": 0.1051
+      },
+      "mass_error_mmol": 3.774758283725532e-15
+    },
+    "half_sites": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          7.65,
+          28.52,
+          60.96
+        ],
+        "fraction_ge_70pct": 0.0519,
+        "fraction_ge_20pct": 0.6574
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          13.89,
+          40.01,
+          71.23
+        ],
+        "fraction_ge_70pct": 0.1096,
+        "fraction_ge_20pct": 0.8152
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          5.81,
+          18.06,
+          39.85
+        ],
+        "fraction_ge_70pct": 0.0006,
+        "fraction_ge_20pct": 0.4459
+      },
+      "mass_error_mmol": 2.886579864025407e-15
+    },
+    "access_10x_slower": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          15.55,
+          45.72,
+          75.57
+        ],
+        "fraction_ge_70pct": 0.1617,
+        "fraction_ge_20pct": 0.8495
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          22.18,
+          51.32,
+          76.1
+        ],
+        "fraction_ge_70pct": 0.1806,
+        "fraction_ge_20pct": 0.9214
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          8.86,
+          23.06,
+          45.04
+        ],
+        "fraction_ge_70pct": 0.0006,
+        "fraction_ge_20pct": 0.5848
+      },
+      "mass_error_mmol": 3.552713678800501e-15
+    },
+    "affinity_100x_weaker": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.15,
+          0.78,
+          3.49
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.001
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          0.35,
+          1.69,
+          6.8
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0056
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.15,
+          0.79,
+          3.45
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0009
+      },
+      "mass_error_mmol": 4.440892098500626e-15
+    },
+    "combined": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.31,
+          1.59,
+          6.82
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0068
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          0.7,
+          3.26,
+          12.09
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0324
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.3,
+          1.52,
+          6.15
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0045
+      },
+      "mass_error_mmol": 4.6629367034256575e-15
+    },
+    "severe_combined": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.0,
+          0.03,
+          0.11
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          0.01,
+          0.05,
+          0.2
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.0,
+          0.02,
+          0.1
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0
+      },
+      "mass_error_mmol": 5.10702591327572e-15
+    }
+  },
+  "grid_combined_holdout": [
+    {
+      "label": "loss10_sites0.5_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.19639017962364513
+    },
+    {
+      "label": "loss10_sites0.5_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.21889121566919
+    },
+    {
+      "label": "loss10_sites2_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.7902625151944188
+    },
+    {
+      "label": "loss10_sites2_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.8735990519376278
+    },
+    {
+      "label": "loss10_sites4_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 1.5851478671183084
+    },
+    {
+      "label": "loss10_sites4_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 1.7429106776335639
+    },
+    {
+      "label": "loss100_sites0.5_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.019733518383212592
+    },
+    {
+      "label": "loss100_sites0.5_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.022026313384912222
+    },
+    {
+      "label": "loss100_sites2_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.0789225799593476
+    },
+    {
+      "label": "loss100_sites2_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.08811718746032887
+    },
+    {
+      "label": "loss100_sites4_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.15797362225634784
+    },
+    {
+      "label": "loss100_sites4_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.17612377354119085
+    },
+    {
+      "label": "loss1000_sites0.5_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.001973285828095629
+    },
+    {
+      "label": "loss1000_sites0.5_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.002203550862439135
+    },
+    {
+      "label": "loss1000_sites2_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.007894105517994444
+    },
+    {
+      "label": "loss1000_sites2_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.008816265565927127
+    },
+    {
+      "label": "loss1000_sites4_tau0.1",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.015791080914653484
+    },
+    {
+      "label": "loss1000_sites4_tau0.5",
+      "combined_capture_ge70_fraction": 0.0,
+      "combined_median_capture_percent": 0.017637124870273038
+    }
+  ],
+  "spearman_nominal_capture": {
+    "kd_phosphate_mM": 0.3836299937482999,
+    "kd_citrate_mM": 0.10689379101693791,
+    "competition": -0.556233393642334
+  },
+  "population_fraction_enteric_ge70": 0.1638
+}
