@@ -1,0 +1,2 @@
+sample_id,material_label,batch_id,condition_id,stage,time_h,dry_material_g,liquid_volume_L,initial_oxalate_mmol,free_oxalate_mmol,bound_oxalate_mmol,released_oxalate_mmol,competitor_identity,competitor_initial_mmol,competitor_final_mmol,swelling_ratio_measured,assay_recovery_percent,raw_data_file,deviation,experimental_status
+,,,,,,,,,,,,,,,,,,,NOT PERFORMED

@@ -1,0 +1,403 @@
+{
+  "disclaimer": "All material properties and scenario distributions hypothetical; no clinical probability.",
+  "designs": {
+    "baseline": {
+      "sites": 0.5,
+      "kd": 0.1,
+      "competitor_factor": 1,
+      "tau": 0.5
+    },
+    "capacity_only": {
+      "sites": 4,
+      "kd": 0.1,
+      "competitor_factor": 1,
+      "tau": 0.5
+    },
+    "selective_combined": {
+      "sites": 1,
+      "kd": 0.1,
+      "competitor_factor": 0.1,
+      "tau": 1
+    },
+    "aspirational_requirements": {
+      "sites": 4,
+      "kd": 0.01,
+      "competitor_factor": 0.1,
+      "tau": 0.1
+    }
+  },
+  "development": {
+    "baseline": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          1.05,
+          5.74,
+          19.62
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.098
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          2.09,
+          9.27,
+          26.71
+        ],
+        "fraction_ge_70pct": 0.0006666666666666666,
+        "fraction_ge_20pct": 0.187
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.9,
+          4.18,
+          14.13
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.03933333333333333
+      },
+      "mass_error_mmol": 4.218847493575595e-15
+    },
+    "capacity_only": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          8.47,
+          35.86,
+          72.85
+        ],
+        "fraction_ge_70pct": 0.11633333333333333,
+        "fraction_ge_20pct": 0.7106666666666667
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          14.3,
+          45.55,
+          77.92
+        ],
+        "fraction_ge_70pct": 0.18266666666666667,
+        "fraction_ge_20pct": 0.8346666666666667
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          6.05,
+          19.44,
+          44.69
+        ],
+        "fraction_ge_70pct": 0.0003333333333333333,
+        "fraction_ge_20pct": 0.4826666666666667
+      },
+      "mass_error_mmol": 3.3306690738754696e-15
+    },
+    "selective_combined": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          13.09,
+          32.26,
+          62.17
+        ],
+        "fraction_ge_70pct": 0.047,
+        "fraction_ge_20pct": 0.768
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          17.99,
+          37.64,
+          64.57
+        ],
+        "fraction_ge_70pct": 0.06,
+        "fraction_ge_20pct": 0.869
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          7.11,
+          17.16,
+          36.83
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.399
+      },
+      "mass_error_mmol": 3.774758283725532e-15
+    },
+    "aspirational_requirements": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          86.09,
+          96.09,
+          99.0
+        ],
+        "fraction_ge_70pct": 0.9813333333333333,
+        "fraction_ge_20pct": 1.0
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          90.13,
+          97.39,
+          99.31
+        ],
+        "fraction_ge_70pct": 0.9926666666666667,
+        "fraction_ge_20pct": 1.0
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          24.65,
+          47.47,
+          70.81
+        ],
+        "fraction_ge_70pct": 0.11033333333333334,
+        "fraction_ge_20pct": 0.9843333333333333
+      },
+      "mass_error_mmol": 1.5543122344752192e-15
+    }
+  },
+  "holdout": {
+    "baseline": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.98,
+          5.46,
+          20.01
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.1002
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          1.99,
+          9.04,
+          26.98
+        ],
+        "fraction_ge_70pct": 0.0003,
+        "fraction_ge_20pct": 0.1901
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.88,
+          4.16,
+          14.11
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0377
+      },
+      "mass_error_mmol": 4.6629367034256575e-15
+    },
+    "capacity_only": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          7.98,
+          34.8,
+          73.23
+        ],
+        "fraction_ge_70pct": 0.1256,
+        "fraction_ge_20pct": 0.7073
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          13.83,
+          44.77,
+          78.04
+        ],
+        "fraction_ge_70pct": 0.1872,
+        "fraction_ge_20pct": 0.8287
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          6.08,
+          19.97,
+          44.35
+        ],
+        "fraction_ge_70pct": 0.0012,
+        "fraction_ge_20pct": 0.4987
+      },
+      "mass_error_mmol": 3.3306690738754696e-15
+    },
+    "selective_combined": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          12.46,
+          32.15,
+          62.19
+        ],
+        "fraction_ge_70pct": 0.0472,
+        "fraction_ge_20pct": 0.7582
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          17.59,
+          37.64,
+          65.1
+        ],
+        "fraction_ge_70pct": 0.0578,
+        "fraction_ge_20pct": 0.8603
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          7.02,
+          17.34,
+          36.54
+        ],
+        "fraction_ge_70pct": 0.0002,
+        "fraction_ge_20pct": 0.4093
+      },
+      "mass_error_mmol": 4.218847493575595e-15
+    },
+    "aspirational_requirements": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          85.37,
+          96.07,
+          99.03
+        ],
+        "fraction_ge_70pct": 0.9834,
+        "fraction_ge_20pct": 1.0
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          89.74,
+          97.33,
+          99.34
+        ],
+        "fraction_ge_70pct": 0.9943,
+        "fraction_ge_20pct": 1.0
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          24.89,
+          47.67,
+          70.94
+        ],
+        "fraction_ge_70pct": 0.116,
+        "fraction_ge_20pct": 0.9828
+      },
+      "mass_error_mmol": 8.881784197001252e-16
+    }
+  },
+  "stress": {
+    "baseline": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.07,
+          0.48,
+          2.77
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0002
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          0.13,
+          0.77,
+          3.85
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0004
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.06,
+          0.36,
+          1.92
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0
+      },
+      "mass_error_mmol": 4.440892098500626e-15
+    },
+    "capacity_only": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          0.6,
+          3.81,
+          19.1
+        ],
+        "fraction_ge_70pct": 0.0003,
+        "fraction_ge_20pct": 0.0924
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          1.05,
+          5.69,
+          23.15
+        ],
+        "fraction_ge_70pct": 0.0001,
+        "fraction_ge_20pct": 0.1313
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.45,
+          2.66,
+          11.69
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0264
+      },
+      "mass_error_mmol": 4.884981308350689e-15
+    },
+    "selective_combined": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          1.42,
+          6.27,
+          19.52
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0944
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          1.76,
+          6.83,
+          19.19
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0888
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          0.76,
+          3.14,
+          9.96
+        ],
+        "fraction_ge_70pct": 0.0,
+        "fraction_ge_20pct": 0.0092
+      },
+      "mass_error_mmol": 4.218847493575595e-15
+    },
+    "aspirational_requirements": {
+      "capture": {
+        "p10_p50_p90_percent": [
+          33.34,
+          69.3,
+          91.12
+        ],
+        "fraction_ge_70pct": 0.4878,
+        "fraction_ge_20pct": 0.9694
+      },
+      "enteric_avoided": {
+        "p10_p50_p90_percent": [
+          44.37,
+          76.36,
+          93.14
+        ],
+        "fraction_ge_70pct": 0.6135,
+        "fraction_ge_20pct": 0.9907
+      },
+      "urine": {
+        "p10_p50_p90_percent": [
+          16.69,
+          34.47,
+          59.23
+        ],
+        "fraction_ge_70pct": 0.0161,
+        "fraction_ge_20pct": 0.8274
+      },
+      "mass_error_mmol": 3.1086244689504383e-15
+    }
+  },
+  "selected_on_development": "aspirational_requirements",
+  "checks": {
+    "zero_site_max_urine_effect": 1.656768064207294e-15,
+    "max_capture_difference_120_vs_240_percentage_points": 0.02849344892653649,
+    "max_capture_difference_240_vs_480_percentage_points": 0.013827804518007358,
+    "max_urine_difference_240_vs_480_percentage_points": 0.013680898475704195,
+    "holdout_ceiling_fraction_f_ge_70pct": 0.1664
+  }
+}
