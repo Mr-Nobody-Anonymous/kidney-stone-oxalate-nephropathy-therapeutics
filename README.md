@@ -1,39 +1,51 @@
-# Enteric Hyperoxaluria Therapeutics: In Silico Design & Simulation of Gut-Restricted Oxalate-Trapping Polymers
+# Kidney Stone & Oxalate Nephropathy Therapeutics: In Silico Design of Gut-Restricted Polymers for Kidney Stone Prevention & Renal Failure Mitigation
 
-[![Domain: Nephrology & Medicinal Chemistry](https://img.shields.io/badge/Domain-Nephrology%20%26%20Medicinal%20Chemistry-blue.svg)](#)
-[![Target: Enteric Hyperoxaluria](https://img.shields.io/badge/Disease%20Target-Enteric%20Hyperoxaluria%20%2F%20Nephrolithiasis-teal.svg)](#)
-[![Mechanism: Gastrointestinal Oxalate Sequestration](https://img.shields.io/badge/Mechanism-Intestinal%20Oxalate%20Sequestering%20Polymer-green.svg)](#)
+[![Domain: Nephrology & Medicinal Chemistry](https://img.shields.io/badge/Domain-Nephrology%20%26%20Renal%20Medicine-blue.svg)](#)
+[![Target: Kidney Stones & Renal Failure](https://img.shields.io/badge/Disease%20Target-Nephrolithiasis%20%26%20Oxalate%20Nephropathy-teal.svg)](#)
+[![Mechanism: Gut-Restricted Oxalate Sequestration](https://img.shields.io/badge/Mechanism-Intestinal%20Oxalate%20Sequestering%20Polymer-green.svg)](#)
 [![Methodology: Molecular Modeling & Monte Carlo Sweep](https://img.shields.io/badge/Methods-RDKit%20%7C%20MMFF%20%7C%20Monte%20Carlo%20Kinetics-darkviolet.svg)](#)
 
 ---
 
-## 1. Executive Summary & Clinical Background
+## 1. Executive Summary & Nephrology Context
 
-### 1.1 Pathophysiology of Enteric Hyperoxaluria
-**Enteric hyperoxaluria** is a secondary metabolic disorder predominantly arising from gastrointestinal fat malabsorption secondary to bariatric procedures (e.g., Roux-en-Y gastric bypass), inflammatory bowel diseases (e.g., Crohn's disease), chronic pancreatitis, celiac sprue, or short bowel syndrome.
+### 1.1 The Dual Pathology: From Kidney Stones to Renal Failure
+Elevated systemic oxalate levels drive two catastrophic, interrelated renal pathologies:
+
+1. **Kidney Stone Disease (Calcium Oxalate Nephrolithiasis):**
+   * Calcium oxalate monohydrate (whewellite) and dihydrate (weddellite) account for $>80\%$ of all diagnosed urolithiasis cases.
+   * High urinary oxalate concentration rapidly exceeds the calcium oxalate solubility product ($K_{\text{sp}}$), inducing Randall's plaque formation, papillary crystal nucleation, episodic ureteral obstruction, excruciating renal colic, and hematuria.
+
+2. **Progressive Kidney Failure (Oxalate Nephropathy & ESRD):**
+   * When excessive oxalate filtered by the glomeruli encounters calcium in renal tubular lumens, widespread intratubular precipitation occurs.
+   * Internalized calcium oxalate crystals trigger severe tubular epithelial necrosis, mitochondrial damage, and activation of the **NLRP3 inflammasome**.
+   * The resulting interstitial nephritis and tubular atrophy drive rapid-onset **Acute Kidney Injury (AKI)** and irreversible progression toward **End-Stage Renal Disease (ESRD / Chronic Renal Failure)** requiring hemodialysis or renal transplantation.
 
 ```
-Pathophysiological Cascade:
-Fat Malabsorption ──> Luminal Free Fatty Acids chelate Ca²⁺ (Saponification)
-                  ──> Unbound, soluble dietary Oxalate accumulates in lumen
-                  ──> Colonic hyperpermeability (bile acid/fatty acid induced)
-                  ──> Massive passive colonic oxalate hyperabsorption
-                  ──> Systemic hyperoxalemia & marked hyperoxaluria (>0.5 mmol/24h)
-                  ──> Calcium Oxalate Supersaturation (AP[CaOx] > critical threshold)
-                  ──> Intratubular crystal nucleation, aggregation & obstruction
-                  ──> Recurrent Nephrolithiasis, Nephrocalcinosis & Oxalate Nephropathy
-                  ──> Progressive interstitial fibrosis & End-Stage Renal Disease (ESRD)
+Pathophysiological Axis: Gut-Kidney Crosstalk
+Fat Malabsorption / High Intake ──> Saponification: Luminal Free Fatty Acids chelate Ca²⁺
+                                ──> Soluble Dietary Oxalate accumulates freely in gut lumen
+                                ──> Massive Passive Intestinal Hyperabsorption (Enteric Hyperoxaluria)
+                                ──> Systemic Hyperoxalemia & Severe Hyperoxaluria (>0.5 mmol/24h)
+                                ──> Renal Tubular CaOx Supersaturation (AP[CaOx] >> critical threshold)
+                                 │
+         ┌───────────────────────┴───────────────────────┐
+         ▼                                               ▼
+[PATHWAY 1: KIDNEY STONES]                      [PATHWAY 2: RENAL FAILURE]
+• Crystal Aggregation & Retention               • Intratubular Crystal Casts
+• Papillary Randall's Plaque Growth             • NLRP3 Inflammasome & ROS Activation
+• Ureteral Colic & Acute Obstruction            • Tubular Epithelial Necrosis & Sloughing
+• Recurrent Nephrolithiasis                     • Interstitial Fibrosis & Atrophy
+• Urological Interventions / Stenting           • Progressive Oxalate Nephropathy (CKD/ESRD)
 ```
 
-Unlike **primary hyperoxaluria** (types 1, 2, and 3), which are inborn errors of hepatic glyoxylate metabolism manageable via RNAi therapies (e.g., lumasiran, nedosiran), **enteric hyperoxaluria** is fundamentally driven by intestinal bioavailability. 
+### 1.2 Therapeutic Objective: Non-Systemic Gut-Restricted Interception
+Because humans lack endogenous enzymes to metabolize oxalate, avoiding renal filtration requires intercepting oxalate in the gastrointestinal tract before systemic absorption.
 
-### 1.2 Therapeutic Strategy: Non-Systemic Gut-Restricted Sequestration
-Current standard-of-care (dietary oxalate restriction, intensive oral hydration, and meal-time calcium carbonate/citrate supplementation) is frequently constrained by poor compliance, hypercalciuria risks, and modest binding efficacy in complex luminal environments.
-
-This project investigates the rational design of a **non-absorbable, orally administered, gut-retained hydrogel / supramolecular polymeric sorbent** engineered to:
-1. Selectively chelate free oxalate dianions in the intestinal fluid in the presence of massive stoichiometric excesses of physiological competing anions (chloride, phosphate, sulfate, citrate, bile acids).
-2. Retain bound oxalate throughout gastrointestinal transit to facilitate fecal excretion.
-3. Lower systemic oxalate bioavailability, reducing urinary oxalate excretion below stone-forming and crystal-nephropathy thresholds.
+This project investigates the rational in silico design of a **gut-restricted, orally administered polymeric sorbent / supramolecular receptor** engineered to:
+1. Selectively chelate free oxalate dianions in the intestinal lumen in the presence of massive stoichiometric excesses of physiological competing anions (chloride, phosphate, sulfate, citrate, bile acids).
+2. Retain bound oxalate throughout gastrointestinal transit to facilitate harmless fecal excretion.
+3. Lower systemic oxalate bioavailability below stone-forming and crystal-nephropathy thresholds, preventing both stone recurrence and progressive kidney failure.
 
 ---
 
@@ -61,7 +73,7 @@ As part of the design progression, a small-molecule screening receptor module—
                            O-CH₂-CH₂-O-CH₂-CH₂-O-CH₂-CH₂-OH
 ```
 
-* **Conformational Analysis:** 3D conformational ensemble generation via RDKit ETKDGv3 with MMFF energy minimization identified inter-guanidinium central carbon separations ranging between **8.16 Å and 9.55 Å**, outlining the spatial geometry required for paired charge-assisted hydrogen bonding against the oxalate dianion ($^-\text{OOC}-\text{COO}^-$).
+* **Conformational Geometry:** 3D conformational ensemble generation via RDKit ETKDGv3 with MMFF energy minimization identified inter-guanidinium central carbon separations ranging between **8.16 Å and 9.55 Å**, outlining the spatial geometry required for paired charge-assisted hydrogen bonding against the oxalate dianion ($^-\text{OOC}-\text{COO}^-$).
 
 ### 2.2 Polymeric Material Framework: PAA-G25-PEG
 To translate molecular recognition into an oral therapeutic candidate:
@@ -98,7 +110,7 @@ $$\text{Capture} = \left( \frac{O - x}{O} \right) \cdot \left[ 1 - \exp\left(-\f
 ### 3.3 Renal Urinary Oxalate Excretion Endpoint
 $$\Delta \text{UOx}_{\text{reduction}} = \text{Capture} \times f_{\text{enteric}}$$
 
-where $f_{\text{enteric}}$ represents the fractional contribution of intestinal absorption to total urinary oxalate excretion (evaluated across 20% to 80% based on clinical enteric hyperoxaluria patient phenotypes).
+where $f_{\text{enteric}}$ represents the fractional contribution of intestinal absorption to total urinary oxalate excretion (evaluated across 20% to 80% based on clinical patient phenotypes).
 
 ---
 
@@ -124,12 +136,12 @@ Monte Carlo sweeps across physiologically broad, uncorrelated intestinal paramet
 ## 5. Repository Structure
 
 ```
-enteric-hyperoxaluria-therapeutics/
+kidney-stone-oxalate-nephropathy-therapeutics/
 ├── README.md                              # Main scientific overview & project documentation
 ├── research_report.md                     # Comprehensive preliminary research report & literature audit
 ├── simulate.py                            # Standalone 20,000-scenario Monte Carlo simulation engine
 ├── results.json                           # Quantitative simulation endpoints & percentile stats
-├── scenario_results.csv                   # Full paired scenario dataset (20,000 rows x 5 designs)
+├── .gitignore                             # Git configuration excluding raw simulation dumps
 │
 ├── molecule_design/                       # Concrete small-molecule receptor design (BGOX-1)
 │   ├── BGOX-1.smiles                      # Authoritative canonical SMILES specification
@@ -159,14 +171,12 @@ enteric-hyperoxaluria-therapeutics/
 ├── cycle5/                                # Iteration cycle 5: 80% feasibility frontier analysis
 ├── cycle6/                                # Iteration cycle 6: interior & corner space optimization sweeps
 │
-├── next_steps/                            # Experimental protocols & pre-registered validation plans
-│   ├── laboratory_validation_plan.md      # Methodological protocol for in vitro digestion testing
-│   ├── laboratory_measurements_BLANK.csv  # Standardized data capture template
-│   ├── next_steps_report.md               # Summary of transition from in silico to wet lab
-│   ├── simulate_v2.py                     # Second-generation simulation script
-│   └── results_v2.json                    # Holdout set benchmark results
-│
-└── *.zip                                  # Standalone frozen archival bundles for cycles & screens
+└── next_steps/                            # Experimental protocols & pre-registered validation plans
+    ├── laboratory_validation_plan.md      # Methodological protocol for in vitro digestion testing
+    ├── laboratory_measurements_BLANK.csv  # Standardized data capture template
+    ├── next_steps_report.md               # Summary of transition from in silico to wet lab
+    ├── simulate_v2.py                     # Second-generation simulation script
+    └── results_v2.json                    # Holdout set benchmark results
 ```
 
 ---
