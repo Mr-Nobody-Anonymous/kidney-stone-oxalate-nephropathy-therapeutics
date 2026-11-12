@@ -34,7 +34,7 @@
         "fraction_ge_70pct": 0.0038,
         "fraction_ge_20pct": 0.6517
       },
-      "mass_error_mmol": 3.1086244689504383e-15
+      "mass_error_mmol": 2.886579864025407e-15
     },
     "combined": {
       "capture": {
@@ -192,7 +192,7 @@
         "fraction_ge_70pct": 0.0,
         "fraction_ge_20pct": 0.0
       },
-      "mass_error_mmol": 4.884981308350689e-15
+      "mass_error_mmol": 5.10702591327572e-15
     }
   },
   "selective_shield_with_capacity_and_access_penalties": {
@@ -230,7 +230,7 @@
         "fraction_ge_70pct": 0.0156,
         "fraction_ge_20pct": 0.857
       },
-      "mass_error_mmol": 3.3306690738754696e-15
+      "mass_error_mmol": 3.1086244689504383e-15
     },
     "combined": {
       "capture": {

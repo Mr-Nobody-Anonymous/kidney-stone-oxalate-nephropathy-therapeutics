@@ -1,0 +1,15 @@
+# Scientific Computing & Modeling
+numpy>=1.26.0
+scipy>=1.12.0
+pandas>=2.0.0
+matplotlib>=3.8.0
+
+# Cheminformatics & Computational Chemistry
+rdkit>=2023.09.0
+
+# Testing & Verification
+pytest>=8.0.0
+
+# Network & Utilities
+requests>=2.31.0
+urllib3>=2.0.0
