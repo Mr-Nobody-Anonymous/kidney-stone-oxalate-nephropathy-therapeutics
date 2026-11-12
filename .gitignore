@@ -35,8 +35,9 @@ ENV/
 env.bak/
 venv.bak/
 
-# Jupyter Notebook
+# Jupyter & Pytest
 .ipynb_checkpoints
+.pytest_cache/
 
 # IDE / Editor
 .vscode/
@@ -48,15 +49,3 @@ venv.bak/
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Large generated simulation output arrays & archival zip bundles
-# (Reproducible via simulate.py, optimize.py, design_and_simulate.py)
-cycle3/selected_holdout.csv
-cycle4/capture_scenarios.csv
-cycle6/interior_inputs.csv
-cycle6/test_outputs.csv
-next_steps/holdout_results.csv
-cycle3_research_package.zip
-cycle4_research_package.zip
-next_steps_research_package.zip
-simulation_80plus_package.zip

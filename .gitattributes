@@ -1,1 +1,7 @@
 scenario_results.csv filter=lfs diff=lfs merge=lfs -text
+cycle3/selected_holdout.csv filter=lfs diff=lfs merge=lfs -text
+cycle4/capture_scenarios.csv filter=lfs diff=lfs merge=lfs -text
+cycle6/interior_inputs.csv filter=lfs diff=lfs merge=lfs -text
+cycle6/test_outputs.csv filter=lfs diff=lfs merge=lfs -text
+next_steps/holdout_results.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
